@@ -1,41 +1,56 @@
 {
   "hash": "824030df",
-  "browserHash": "d97acfeb",
+  "browserHash": "f3930360",
   "optimized": {
     "react": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "8c5ae0ea",
+      "fileHash": "f45a6770",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "0a172873",
+      "fileHash": "12f66eea",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/.deno/react-dom@18.2.0/node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "affbf2d5",
+      "fileHash": "80cc86a4",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/.deno/react-router-dom@6.15.0/node_modules/react-router-dom/dist/index.js",
       "file": "react-router-dom.js",
-      "fileHash": "6d8a3103",
+      "fileHash": "cbde441f",
       "needsInterop": false
     },
     "@chakra-ui/react": {
       "src": "../../node_modules/.deno/@chakra-ui+react@2.8.0/node_modules/@chakra-ui/react/dist/index.mjs",
       "file": "@chakra-ui_react.js",
-      "fileHash": "338d946f",
+      "fileHash": "f735b18a",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/.deno/framer-motion@10.16.1/node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "ac066e82",
+      "needsInterop": false
+    },
+    "react-icons/cg": {
+      "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/cg/index.esm.js",
+      "file": "react-icons_cg.js",
+      "fileHash": "550f2df2",
       "needsInterop": false
     }
   },
   "chunks": {
     "chunk-M5VZBTKD": {
       "file": "chunk-M5VZBTKD.js"
+    },
+    "chunk-BG3V7G3G": {
+      "file": "chunk-BG3V7G3G.js"
     },
     "chunk-IIJFBPLM": {
       "file": "chunk-IIJFBPLM.js"
