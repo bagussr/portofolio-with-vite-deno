@@ -42,6 +42,8 @@ export const Home: FC = () => {
         <Box
           w='100%'
           p={{ sm: '20', base: '14' }}
+          py={{ sm: '20', base: '10' }}
+          rowGap={10}
           display={'flex'}
           flexDir={{ sm: 'row-reverse', base: 'column' }}
           alignItems={'center'}
