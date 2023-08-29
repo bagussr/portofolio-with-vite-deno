@@ -5,7 +5,7 @@ import { MainLayout } from './layout/MainLayout';
 import { About } from './page/About';
 import { Contact } from './page/Contact';
 import { Gallery } from './page/Gallery';
-import { Project } from './page/Project';
+import { Project } from './page/project/Project';
 
 function App(): FC {
   return (
