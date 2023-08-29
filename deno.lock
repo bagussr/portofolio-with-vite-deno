@@ -9,6 +9,7 @@
       "@emotion/react@^11.7.1": "@emotion/react@11.11.1_react@18.2.0",
       "@emotion/styled@^11.7.1": "@emotion/styled@11.11.0_@emotion+react@11.11.1__react@18.2.0_react@18.2.0",
       "@fontsource/merriweather": "@fontsource/merriweather@5.0.8",
+      "@fontsource/noto-serif": "@fontsource/noto-serif@5.0.9",
       "@vitejs/plugin-react@^4.0.0": "@vitejs/plugin-react@4.0.4_vite@4.4.9_@babel+core@7.22.11",
       "framer-motion@^10.16.0": "framer-motion@10.16.1_react@18.2.0_react-dom@18.2.0__react@18.2.0",
       "react-dom@^18.2.0": "react-dom@18.2.0_react@18.2.0",
@@ -1278,6 +1279,10 @@
       },
       "@fontsource/merriweather@5.0.8": {
         "integrity": "sha512-4vvR6psdKcGzaFCQL8fGCqMI/mOLKD+mhmUe3iQilx/4VFkIcF7wswWHZ7KCPeF24edX8yd0QXX0DQ1CenMrYA==",
+        "dependencies": {}
+      },
+      "@fontsource/noto-serif@5.0.9": {
+        "integrity": "sha512-3J98eSjiZdwQvCJMLrmqBf3hZvsva6UkhwvfpWyJ6LaE1rxUNTHvUJOiyGnjc4755vvqX7Nb/zXPCWLnV0OIhQ==",
         "dependencies": {}
       },
       "@jridgewell/gen-mapping@0.3.3": {
