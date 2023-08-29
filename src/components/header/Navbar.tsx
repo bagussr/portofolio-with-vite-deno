@@ -6,10 +6,10 @@ import { Link, Box, IconButton } from '@chakra-ui/react';
 import { CgMenu } from 'react-icons/cg';
 import { motion } from 'framer-motion';
 
-import { type HandleOpen } from '../types';
+import { type HandleOpen } from '../../types';
 
 import { SideBar } from './SideBar';
-import { glowAnimation } from '../styles/animations';
+import { glowAnimation } from '../../styles/animations';
 
 const listMenu: String[] = ['About', 'Gallery', 'Project', 'Contact'];
 

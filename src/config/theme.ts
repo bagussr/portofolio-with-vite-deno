@@ -1,5 +1,5 @@
 import { extendTheme } from '@chakra-ui/react';
-import '@fontsource/merriweather';
+import '@fontsource/noto-serif';
 
 const global = {
   'html, body': {
@@ -70,8 +70,8 @@ const theme = extendTheme({
     global: global,
   },
   fonts: {
-    heading: 'Merriweather',
-    body: 'Merriweather',
+    heading: "'Noto Serif', sans-serif",
+    body: "'Noto Serif', sans-serif",
   },
   colors: {
     brand: {
@@ -93,6 +93,11 @@ const theme = extendTheme({
           backgroundImage:
             'linear-gradient(to bottom, rgba(255,255,255,0.05), rgb(0,0,0,0.1), rgb(0,0,0,0.2), rgba(0,0,0,0.6))',
         },
+      },
+    },
+    Heading: {
+      baseStyle: {
+        color: 'brand.background',
       },
     },
   },
