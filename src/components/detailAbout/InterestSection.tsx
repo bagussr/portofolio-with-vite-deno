@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { InterestButton } from '../button/InteresButton';
 import { Flex, Heading } from '@chakra-ui/react';
 
@@ -41,7 +41,7 @@ const interest = [
   },
 ];
 
-export const InterestSection: React.FC = () => {
+export const InterestSection: FC = () => {
   return (
     <>
       <Heading fontSize={{ sm: '2xl', base: 'lg' }}>Interest</Heading>

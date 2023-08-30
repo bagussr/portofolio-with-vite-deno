@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { staticData } from '../../assets/static';
 import { Heading, Image, Flex } from '@chakra-ui/react';
 
@@ -125,7 +125,7 @@ const techList = [
   },
 ];
 
-export const TechStackSection: React.FC = () => {
+export const TechStackSection: FC = () => {
   const height = 12;
   const heightMobile = 8;
   return (

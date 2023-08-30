@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import {
   Heading,
   HStack,
@@ -8,7 +8,7 @@ import {
   UnorderedList,
 } from '@chakra-ui/react';
 
-export const ExperienceSection: React.FC = () => {
+export const ExperienceSection: FC = () => {
   return (
     <>
       <Heading fontSize={{ sm: '2xl', base: 'lg' }}>Experience</Heading>

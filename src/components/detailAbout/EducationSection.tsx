@@ -1,6 +1,7 @@
+// @deno-types= @types/react
 import { HStack, Heading, VStack, Text } from '@chakra-ui/react';
-import React from 'react';
-export const EducationSection: React.FC = () => {
+import React, { FC } from 'react';
+export const EducationSection: FC = () => {
   return (
     <>
       <Heading fontSize={{ sm: '2xl', base: 'lg' }}>Education</Heading>
