@@ -8,7 +8,7 @@ interface Props {
   link: string;
 }
 
-export const FloatingButton: React.FC<Props> = ({
+export const FloatingButtonLink: React.FC<Props> = ({
   image,
   text,
   link,

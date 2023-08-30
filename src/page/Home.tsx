@@ -9,7 +9,7 @@ import image2 from '../assets/images/profile3.png';
 import github from '../assets/svg/Vector.svg';
 import linkedin from '../assets/svg/linkedin.svg';
 import instagram from '../assets/svg/instagram.svg';
-import { FloatingButton } from '../components/Button/FloatingButtonLink';
+import { FloatingButtonLink } from '../components/button/FloatingButtonLink';
 
 interface SocialMedia {
   image: ImageBitmap;
@@ -98,7 +98,7 @@ export const Home: FC = () => {
           gap={'5'}
           flexWrap={'wrap'}>
           {socialMedia.map((item: SocialMedia, index: number) => (
-            <FloatingButton
+            <FloatingButtonLink
               text={item.text}
               image={item.image}
               key={index}
