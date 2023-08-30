@@ -1,5 +1,4 @@
 import { extendTheme } from '@chakra-ui/react';
-import '@fontsource/noto-serif';
 
 const global = {
   'html, body': {
