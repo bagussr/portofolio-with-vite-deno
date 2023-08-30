@@ -5,5 +5,24 @@
     "preview": "deno run -A --node-modules-dir npm:vite preview",
     "serve": "deno run --allow-net --allow-read https://deno.land/std@0.157.0/http/file_server.ts dist/"
   },
-  "checkjs": true
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": [
+      "deno.window",
+      "deno.fetch",
+      "deno.webstorage",
+      "deno.console",
+      "deno.unstable"
+    ],
+    "strict": true
+  },
+  "lint": {
+    "include": ["src/"],
+    "exclude": ["src/testdata/", "data/fixtures/**/*.ts"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
+  }
 }

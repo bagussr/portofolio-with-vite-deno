@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules"]
+}
