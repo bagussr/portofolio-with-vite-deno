@@ -1,35 +1,41 @@
 {
   "hash": "824030df",
-  "browserHash": "d97acfeb",
+  "browserHash": "2e58fd72",
   "optimized": {
     "react": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "8c5ae0ea",
+      "fileHash": "cadde30b",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "0a172873",
+      "fileHash": "e17152b4",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/.deno/react-dom@18.2.0/node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "affbf2d5",
+      "fileHash": "9c808fa7",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/.deno/react-router-dom@6.15.0/node_modules/react-router-dom/dist/index.js",
       "file": "react-router-dom.js",
-      "fileHash": "6d8a3103",
+      "fileHash": "2793cefa",
       "needsInterop": false
     },
     "@chakra-ui/react": {
       "src": "../../node_modules/.deno/@chakra-ui+react@2.8.0/node_modules/@chakra-ui/react/dist/index.mjs",
       "file": "@chakra-ui_react.js",
-      "fileHash": "338d946f",
+      "fileHash": "bf3ff867",
+      "needsInterop": false
+    },
+    "react-icons/cg": {
+      "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/cg/index.esm.js",
+      "file": "react-icons_cg.js",
+      "fileHash": "1efc4a35",
       "needsInterop": false
     }
   },

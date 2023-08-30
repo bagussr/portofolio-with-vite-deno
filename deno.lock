@@ -11,6 +11,7 @@
       "create-vite-extra@latest": "create-vite-extra@1.1.0",
       "framer-motion@^10.16.0": "framer-motion@10.16.1_react@18.2.0_react-dom@18.2.0__react@18.2.0",
       "react-dom@^18.2.0": "react-dom@18.2.0_react@18.2.0",
+      "react-icons@^4.3.1": "react-icons@4.10.1_react@18.2.0",
       "react-router-dom@6.15.0": "react-router-dom@6.15.0_react@18.2.0_react-dom@18.2.0__react@18.2.0",
       "react-router-dom@^6.15.0": "react-router-dom@6.15.0_react@18.2.0_react-dom@18.2.0__react@18.2.0",
       "react@^18.2.0": "react@18.2.0",
@@ -1734,6 +1735,12 @@
           "react-clientside-effect": "react-clientside-effect@1.2.6_react@18.2.0",
           "use-callback-ref": "use-callback-ref@1.3.0_react@18.2.0",
           "use-sidecar": "use-sidecar@1.1.2_react@18.2.0"
+        }
+      },
+      "react-icons@4.10.1_react@18.2.0": {
+        "integrity": "sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==",
+        "dependencies": {
+          "react": "react@18.2.0"
         }
       },
       "react-is@16.13.1": {

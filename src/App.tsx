@@ -1,19 +1,20 @@
-import React, { useState, FC } from 'react';
+// @deno-types=@types/react
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './page/Home';
 import { MainLayout } from './layout/MainLayout';
 
-function App(): FC {
-  const [count, setCount] = useState(0);
-
+function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<MainLayout />}>
-          <Route path='' element={<Home />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<MainLayout />}>
+            <Route path='' element={<Home />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
