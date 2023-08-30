@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Box } from '@chakra-ui/react';
 
 interface Props {
@@ -6,7 +6,7 @@ interface Props {
   color: string;
 }
 
-export const InterestButton: React.FC<Props> = ({ text, color }): Props => {
+export const InterestButton: FC<Props> = ({ text, color }): Props => {
   return (
     <>
       <Box

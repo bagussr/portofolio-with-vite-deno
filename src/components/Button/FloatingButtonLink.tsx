@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Box, Image, Text } from '@chakra-ui/react';
 
 interface Props {
@@ -7,11 +7,7 @@ interface Props {
   link: string;
 }
 
-export const FloatingButtonLink: React.FC<Props> = ({
-  image,
-  text,
-  link,
-}): Props => {
+export const FloatingButtonLink: FC<Props> = ({ image, text, link }): Props => {
   return (
     <>
       <Box as={'a'} href={`https:/${link}`} target='blank'>
