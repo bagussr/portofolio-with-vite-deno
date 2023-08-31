@@ -1,51 +1,72 @@
 {
   "hash": "824030df",
-  "browserHash": "6f24d950",
+  "browserHash": "f17d08e1",
   "optimized": {
     "react": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "0821a207",
+      "fileHash": "0bb0e48d",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "0e91b84a",
+      "fileHash": "06196b0e",
       "needsInterop": true
     },
     "@chakra-ui/react": {
       "src": "../../node_modules/.deno/@chakra-ui+react@2.8.0/node_modules/@chakra-ui/react/dist/index.mjs",
       "file": "@chakra-ui_react.js",
-      "fileHash": "c776143f",
+      "fileHash": "046572a4",
       "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../node_modules/.deno/react-dom@18.2.0/node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "e0a3d4d0",
+      "fileHash": "175bb0cd",
       "needsInterop": true
     },
     "react-icons/cg": {
       "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/cg/index.esm.js",
       "file": "react-icons_cg.js",
-      "fileHash": "87443be9",
+      "fileHash": "d29348b1",
       "needsInterop": false
     },
     "react-router-dom": {
       "src": "../../node_modules/.deno/react-router-dom@6.15.0/node_modules/react-router-dom/dist/index.js",
       "file": "react-router-dom.js",
-      "fileHash": "9d8c52c5",
+      "fileHash": "aa3e3ba4",
       "needsInterop": false
     },
     "framer-motion": {
       "src": "../../node_modules/.deno/framer-motion@10.16.1/node_modules/framer-motion/dist/es/index.mjs",
       "file": "framer-motion.js",
-      "fileHash": "19f9f391",
+      "fileHash": "e1fd8fe0",
+      "needsInterop": false
+    },
+    "react-icons/bs": {
+      "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/bs/index.esm.js",
+      "file": "react-icons_bs.js",
+      "fileHash": "914163d2",
+      "needsInterop": false
+    },
+    "react-icons/hi": {
+      "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/hi/index.esm.js",
+      "file": "react-icons_hi.js",
+      "fileHash": "a30ac1a2",
+      "needsInterop": false
+    },
+    "react-icons/lia": {
+      "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/lia/index.esm.js",
+      "file": "react-icons_lia.js",
+      "fileHash": "c2eef1a3",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-64EBQLGV": {
+      "file": "chunk-64EBQLGV.js"
+    },
     "chunk-BG3V7G3G": {
       "file": "chunk-BG3V7G3G.js"
     },
