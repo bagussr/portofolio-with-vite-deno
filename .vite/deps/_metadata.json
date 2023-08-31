@@ -1,45 +1,54 @@
 {
   "hash": "824030df",
-  "browserHash": "2e58fd72",
+  "browserHash": "6f24d950",
   "optimized": {
     "react": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "cadde30b",
+      "fileHash": "0821a207",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/.deno/react@18.2.0/node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "e17152b4",
+      "fileHash": "0e91b84a",
       "needsInterop": true
-    },
-    "react-dom/client": {
-      "src": "../../node_modules/.deno/react-dom@18.2.0/node_modules/react-dom/client.js",
-      "file": "react-dom_client.js",
-      "fileHash": "9c808fa7",
-      "needsInterop": true
-    },
-    "react-router-dom": {
-      "src": "../../node_modules/.deno/react-router-dom@6.15.0/node_modules/react-router-dom/dist/index.js",
-      "file": "react-router-dom.js",
-      "fileHash": "2793cefa",
-      "needsInterop": false
     },
     "@chakra-ui/react": {
       "src": "../../node_modules/.deno/@chakra-ui+react@2.8.0/node_modules/@chakra-ui/react/dist/index.mjs",
       "file": "@chakra-ui_react.js",
-      "fileHash": "bf3ff867",
+      "fileHash": "c776143f",
       "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.deno/react-dom@18.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e0a3d4d0",
+      "needsInterop": true
     },
     "react-icons/cg": {
       "src": "../../node_modules/.deno/react-icons@4.10.1/node_modules/react-icons/cg/index.esm.js",
       "file": "react-icons_cg.js",
-      "fileHash": "1efc4a35",
+      "fileHash": "87443be9",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/.deno/react-router-dom@6.15.0/node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "9d8c52c5",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/.deno/framer-motion@10.16.1/node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "19f9f391",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-BG3V7G3G": {
+      "file": "chunk-BG3V7G3G.js"
+    },
     "chunk-M5VZBTKD": {
       "file": "chunk-M5VZBTKD.js"
     },

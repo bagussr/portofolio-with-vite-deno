@@ -6,7 +6,7 @@ import { Link, Box, IconButton } from '@chakra-ui/react';
 import { CgMenu } from 'react-icons/cg';
 import { motion } from 'framer-motion';
 
-import { type HandleOpen } from '../../types';
+import { type HandleOpen } from '../types';
 
 import { SideBar } from './SideBar';
 
@@ -23,7 +23,17 @@ export const NavBar: FC = () => {
     <>
       <Box maxW={'100vw'} color={'white'} position={'relative'}>
         <LinkRouter to='/'>
-          <Box className='custom-pattern'></Box>
+          <motion.div
+            className='custom-pattern'
+            animate={{ rotate: [0, 180, 300, -270, 0, 180, 360] }}
+            transition={{
+              duration: 5,
+              ease: 'easeInOut',
+              times: [0, 0.2, 0.5, 0.8, 1, 1.2, 1.5],
+              repeat: Infinity,
+              direction: 'reverse',
+            }}
+          />
         </LinkRouter>
         <Box
           display={{
