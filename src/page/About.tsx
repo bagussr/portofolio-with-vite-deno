@@ -12,8 +12,8 @@ import {
 
 // @ts-ignore
 import image from '../assets/images/illustrator.png';
-import { EducationSection } from '../components/DetailAbout/EducationSection';
-import { ExperienceSection } from '../components/DetailAbout/ExperienceSeciton';
+import { EducationSection } from '../components/detailAbout/EducationSection';
+import { ExperienceSection } from '../components/detailAbout/ExperienceSeciton';
 import { TechStackSection } from '../components/detailAbout/TechStackSection';
 import { InterestSection } from '../components/detailAbout/InterestSection';
 import { PersonalInformation } from '../components/detailAbout/PersonalInformation';
